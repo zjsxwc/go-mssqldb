@@ -6,7 +6,7 @@
 
 
 ## 连接池
-
+```
 /usr/local/go/src/database/sql/sql.go:1691
 
 // Conn returns a single connection by either opening a new connection
@@ -17,7 +17,7 @@
 // Every Conn must be returned to the database pool after use by
 // calling Conn.Close.
 func (db *DB) Conn(ctx context.Context) (*Conn, error)
-
+```
 
 
 
